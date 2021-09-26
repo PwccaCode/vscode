@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  <link rel="shortcut icon" href="img/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <title>ValorHub</title>
+</head>
+
+<body>
+  <!--Barra de Navegação-->
+  <div id="header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <img src="asset/vlogo.png" style="max-width: 200px; height: auto; width: 110px"/img> <a class="navbar-brand"
+          href="#">ValorHub</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/Loja-valorant/quemsomo.html">Quem Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Loja-valorant/serviços.html">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Loja-valorant/contato.html">Contato</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Skins
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Spectro</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Singularidade</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  </nav>
+  </div>
+
+  <!--banner-->
+  <div class="container">
+    <div id="banner" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/Loja-valorant/asset/slide1.jpg" alt="" class="img-fluid d-none d-md-block">
+        </div>
+      </div>
+    </div>
+    <!--Produtos/corpo-->
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-5">
+            <form class="justify-content-center justify-content-md-start mb-3 mb-md-0" action="">
+              <div class="input-group input-group-sm">
+                <input type="text" class="form-control" placeholder="Digite Aqui">
+                <button class=btn btn-danger>Buscar</button>
+              </div>
+            </form>
+
+          </div>
+          <div class="col-12 col-md-7">
+            <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start">
+              <form class="ms-3 d-inline-block" action="">
+                <select class="form-select form-select-sm" name="" id="">
+                  <option value="">Ordenar por nome</option>
+                  <option value="">Ordenar por menor preço</option>
+                  <option value="">Ordenar por maior preço</option>
+                </select>
+              </form>
+              <nav class="d-inline-block">
+                <ul class="pagination pagination-sm my-0">
+                  <li class="page-item">
+                    <button class="page-link" disabled>1</button>
+                  </li>
+                  <li class="page-item">
+                    <button class="page-link">2</button>
+                  </li>
+                  <li class="page-item">
+                    <button class="page-link">3</button>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <hr class="mt-3">
+        <div class="row">
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+            <div class="card text-center bg-light">
+              <img src="/Loja-valorant/asset/phantomzed.png" class="card-img-top">
+              <div class="card-header">
+                R$130,00
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Phantom Spectro</h5>
+                <p class="card-text">Parte da Coleção Spectro</p>
+              </div>
+              <div class="card-footer">
+                <form class="d-block" action="">
+                  <button class="btn btn-danger">Comprar</button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+            <div class="card text-center bg-light">
+              <img src="/Loja-valorant/asset/classiczed.png" class="card-img-top">
+              <div class="card-header">
+                R$75,00
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Classic Spectro</h5>
+                <p class="card-text">Parte da Coleção Spectro</p>
+              </div>
+              <div class="card-footer">
+                <form class="d-block" action="">
+                  <button class="btn btn-danger">Comprar</button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+            <div class="card text-center bg-light">
+              <img src="/Loja-valorant/asset/bulldogzed.png" class="card-img-top">
+              <div class="card-header">
+                R$110,00
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Bulldog Spectro</h5>
+                <p class="card-text">Parte da Coleção Spectro</p>
+              </div>
+              <div class="card-footer">
+                <form class="d-block" action="">
+                  <button class="btn btn-danger">Comprar</button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+            <div class="card text-center bg-light">
+              <img src="/Loja-valorant/asset/guardianzed.png" class="card-img-top">
+              <div class="card-header">
+                R$110,00
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Guardian Spectro</h5>
+                <p class="card-text">Parte da Coleção Spectro</p>
+              </div>
+              <div class="card-footer">
+                <form class="d-block" action="">
+                  <button class="btn btn-danger">Comprar</button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+            <div class="card text-center bg-light">
+              <img src="/Loja-valorant/asset/operatordragao.png" class="card-img-top">
+              <div class="card-header">
+                R$200,00
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Operator Ancifogo</h5>
+                <p class="card-text">Parte da Coleção Ancifogo</p>
+              </div>
+              <div class="card-footer">
+                <form class="d-block" action="">
+                  <button class="btn btn-danger">Comprar</button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+            <div class="card text-center bg-light">
+              <img src="/Loja-valorant/asset/frenzydrag.png" class="card-img-top">
+              <div class="card-header">
+                R$75,00
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Frenzy Ancifogo</h5>
+                <p class="card-text">Parte da Coleção Ancifogo</p>
+              </div>
+              <div class="card-footer">
+                <form class="d-block" action="">
+                  <button class="btn btn-danger">Comprar</button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+            <div class="card text-center bg-light">
+              <img src="/Loja-valorant/asset/vandaldragao.png" class="card-img-top">
+              <div class="card-header">
+                R$130,00
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Vandal Ancifogo</h5>
+                <p class="card-text">Parte da Coleção Ancifogo</p>
+              </div>
+              <div class="card-footer">
+                <form class="d-block" action="">
+                  <button class="btn btn-danger">Comprar</button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+            <div class="card text-center bg-light">
+              <img src="/Loja-valorant/asset/phatomzeddpreta.png" class="card-img-top">
+              <div class="card-header">
+                R$130,00
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Phantom Spectro Variante Preta</h5>
+                <p class="card-text">Parte da Coleção Spectro</p>
+              </div>
+              <div class="card-footer">
+                <form class="d-block" action="">
+                  <button class="btn btn-danger">Comprar</button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+            <div class="card text-center bg-light">
+              <img src="/Loja-valorant/asset/phantomsingu.png" class="card-img-top">
+              <div class="card-header">
+                R$130,00
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Phantom Singuralidade</h5>
+                <p class="card-text">Parte da Coleção Singuralidade</p>
+              </div>
+              <div class="card-footer">
+                <form class="d-block" action="">
+                  <button class="btn btn-danger">Comprar</button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+            <div class="card text-center bg-light">
+              <img src="/Loja-valorant/asset/spectresingu.png" class="card-img-top">
+              <div class="card-header">
+                R$99,00
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Spectre Singuralidade</h5>
+                <p class="card-text">Parte da Coleção Singuralidade</p>
+              </div>
+              <div class="card-footer">
+                <form class="d-block" action="">
+                  <button class="btn btn-danger">Comprar</button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+            <div class="card text-center bg-light">
+              <img src="/Loja-valorant/asset/sheriffsingu.png" class="card-img-top">
+              <div class="card-header">
+                R$80,00
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Sheriff Singuralidade</h5>
+                <p class="card-text">Parte da Coleção Singuralidade</p>
+              </div>
+              <div class="card-footer">
+                <form class="d-block" action="">
+                  <button class="btn btn-danger">Comprar</button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+            <div class="card text-center bg-light">
+              <img src="/Loja-valorant/asset/spectrowaveform.png" class="card-img-top">
+              <div class="card-header">
+                R$250,00
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Waveform Spectro</h5>
+                <p class="card-text">Parte da Coleção Spectro</p>
+              </div>
+              <div class="card-footer">
+                <form class="d-block" action="">
+                  <button class="btn btn-danger">Comprar</button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+            <div class="card text-center bg-light">
+              <img src="/Loja-valorant/asset/blastyfrenzy.png" class="card-img-top">
+              <div class="card-header">
+                R$75,00
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Frenzy Blasty</h5>
+                <p class="card-text">Parte da Coleção Blasty</p>
+              </div>
+              <div class="card-footer">
+                <form class="d-block" action="">
+                  <button class="btn btn-danger">Comprar</button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+            <div class="card text-center bg-light">
+              <img src="/Loja-valorant/asset/ionoperator.png" class="card-img-top">
+              <div class="card-header">
+                R$200,00
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Operator Ion</h5>
+                <p class="card-text">Parte da Coleção Ion</p>
+              </div>
+              <div class="card-footer">
+                <form class="d-block" action="">
+                  <button class="btn btn-danger">Comprar</button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+            <div class="card text-center bg-light">
+              <img src="/Loja-valorant/asset/ionphantom.png" class="card-img-top">
+              <div class="card-header">
+                R$130,00
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Phantom Ion</h5>
+                <p class="card-text">Parte da Coleção Ion</p>
+              </div>
+              <div class="card-footer">
+                <form class="d-block" action="">
+                  <button class="btn btn-danger">Comprar</button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="border-top text-muted bg-light">
+      <div class="container">
+        <div class="row py-3">
+          <div class="col-12 col-md-4 text-center text-md-left">
+            &copy;2021-ValorHub
+          </div>
+          <div class="col-12 col-md-4 text-center">
+            <a href="/Loja-valorant/privacidade.html" class="text-decoration-none text-dark">Politica de Privacidade</a>
+          </div>
+          <div class="col-12 col-md-4 text-center text-md-right">
+            <a href="#" class="text-decoration-none text-dark">Administrador</a>
+          </div>
+
+        </div>
+      </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
